@@ -35,7 +35,7 @@ dependencies:
   latlong2:
   http:
   flutter_map_location_marker:
-
+  network_info_plus: ^6.1.4
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -57,11 +57,10 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
-
-  # The following line ensures that the Material Icons font is
-  # included with your application, so that you can use the icons in
-  # the material Icons class.
   uses-material-design: true
+
+  assets:
+    - assets/welcome_bg.png
 
   # To add assets to your application, add an assets section, like this:
   # assets:
